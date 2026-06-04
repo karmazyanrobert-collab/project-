@@ -1,0 +1,22 @@
+БЫСТРЫЙ ЗАПУСК НА WINDOWS
+
+1) Распакуй архив в простую папку, например:
+   C:\university-data-platform-clean
+
+2) Открой папку проекта.
+
+3) Двойной клик по 01_create_venv.bat
+   Он создаст виртуальное окружение и установит библиотеки.
+
+4) Двойной клик по 02_run_pipeline.bat
+   Он создаст данные, Bronze/Silver/Gold, Feature Store и DuckDB.
+
+5) Двойной клик по 03_run_dashboard.bat
+   Откроется Streamlit Dashboard в браузере.
+
+6) Для streaming-демо открой второй терминал или запусти 04_run_streaming.bat.
+   После этого на dashboard обнови страницу.
+
+7) Тесты: 05_run_tests.bat
+
+ВАЖНО: не используй venv из чужого архива. Он не переносимый. Здесь venv создаётся заново.
