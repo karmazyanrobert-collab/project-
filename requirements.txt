@@ -1,0 +1,9 @@
+pandas
+numpy
+pyarrow
+duckdb
+streamlit
+plotly
+faker
+pytest
+apscheduler
