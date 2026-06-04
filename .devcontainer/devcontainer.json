@@ -1,0 +1,23 @@
+{
+  "name": "University Data Platform",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "Streamlit Dashboard",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
